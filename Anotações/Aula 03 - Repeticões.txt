@@ -1,0 +1,31 @@
+Repetições ou Loops
+
+WHILE: Faz o teste no inicio do loop. 
+Loop que conta de 0 a 9:
+
+	let i = 0; //declaração variavel
+
+	while (i < 10) {
+  	console.log(i);
+  	i++;
+	}
+
+
+DO-WHILE: Faz o teste no final do loop.
+Um loop que conta de 0 a 10:
+
+	let i = 0; //declaração variavel
+
+	do {
+  	console.log(i);
+  	i++;
+	} while (i <= 10);
+
+
+FOR: Faz o teste simuntaneo (declara uma variavel de controle).
+Loop que conta de 0 a 10:
+
+		inicio 	teste	incremento
+	for (let i = 0; i <= 10; i++) {
+  	console.log(i);
+	}

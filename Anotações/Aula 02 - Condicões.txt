@@ -1,0 +1,51 @@
+IF - ELSE IF - ELSE
+Condição Simples:
+	if (a > b) {
+  	window.alert("Olá mundo");
+
+
+Condição Composta:
+	if (a > b) {
+  	window.alert("Olá mundo");
+	} else {
+  	window.alert("Tchau mundo");
+	}
+
+
+Condições Aninhada:
+	if (a > b) {
+  	window.alert("Olá mundo");
+	} else if (a > c) {
+  	window.alert("Que isso mundo");
+	} else {
+  	window.alert("Tchau mundo");
+	}
+
+
+SWITCH
+Condição Caso:
+	switch(diaDaSemana) {
+  	case 0:
+    	console.log("Domingo");
+    	break;
+  	case 1:
+    	console.log("Segunda-feira");
+    	break;
+  	case 2:
+    	console.log("Terça-feira");
+    	break;
+  	case 3:
+    	console.log("Quarta-feira");
+    	break;
+  	case 4:
+    	console.log("Quinta-feira");
+    	break;
+  	case 5:
+    	console.log("Sexta-feira");
+	break;
+  	case 6:
+    	console.log("Sábado");
+    	break;
+  	default:
+    	console.log("Dia da semana inválido");
+	}
